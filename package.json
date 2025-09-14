@@ -2,6 +2,9 @@
   "name": "tailwindtest",
   "private": true,
   "version": "0.0.0",
+  "engines": {
+  "node": ">=22.0.0"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,6 +13,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@aws-amplify/cli": "^14.0.0",
     "aws-amplify": "^6.15.6",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
