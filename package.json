@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "engines": {
-  "node": ">=22.12.0"
+    "node": ">=22.12.0"
   },
   "type": "module",
   "scripts": {
@@ -14,9 +14,11 @@
   },
   "dependencies": {
     "@aws-amplify/cli": "^14.0.0",
+    "@tailwindcss/vite": "^4.1.13",
     "aws-amplify": "^6.15.6",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "tailwindcss": "^4.1.13"
   },
   "devDependencies": {
     "@aws-amplify/backend": "^1.16.1",
